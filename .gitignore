@@ -1,0 +1,5 @@
+MCA docs/
+.mypy_cache/
+.next/
+node_modules/
+.venv/
