@@ -2,7 +2,7 @@
 export type Service = {
   slug: string;
   title: string;
-  icon: "flask" | "database" | "chart" | "code" | "pen" | "shield" | "landmark" | "graduation";
+  icon: "flask" | "database" | "chart" | "code" | "pen" | "shield" | "landmark" | "graduation" | "brain";
   short: string;
   overview: string[];
   deliver: string[];
@@ -306,6 +306,48 @@ export const services: Service[] = [
       {
         q: "Which regions do you cover?",
         a: "[PLACEHOLDER: confirm the regions and authorities the team can support].",
+      },
+    ],
+  },
+  {
+    slug: "neuroinformatics",
+    title: "Neuroinformatics",
+    icon: "brain",
+    short: "Reproducible processing and analysis of brain imaging and neurophysiology data for neuroscience and CNS research.",
+    overview: [
+      "Neuroscience and CNS studies generate some of the most complex data in clinical research: MRI and fMRI scans, EEG and MEG recordings, and digital measures from wearables. Getting reliable evidence from them depends on consistent organisation, quality control and well-documented pipelines.",
+      "We organise data to open standards, process it with versioned and reproducible pipelines, and deliver analysis-ready outputs that trace back to the raw acquisition, so imaging and signal endpoints can sit alongside the rest of the clinical evidence.",
+    ],
+    deliver: [
+      "Neuroimaging data organisation and BIDS conversion",
+      "MRI / fMRI pre-processing, quality control and feature extraction",
+      "EEG / MEG signal cleaning, artefact handling and feature extraction",
+      "Imaging and digital biomarker analysis pipelines",
+      "Imaging charter and acquisition protocol review support",
+      "Integration of neuro-derived endpoints with clinical and CDISC datasets",
+    ],
+    deliverables: [
+      "BIDS-organised datasets",
+      "QC reports and exclusion logs",
+      "Derived imaging and signal measures",
+      "Versioned pipeline documentation",
+      "Analysis-ready datasets",
+    ],
+    frameworks: [
+      "Brain Imaging Data Structure (BIDS)",
+      "DICOM and NIfTI data formats",
+      "CDISC SDTM (including relevant findings domains)",
+      "ICH E6 (GCP) and ALCOA+ data integrity principles",
+    ],
+    engagement: [engagement.project, engagement.dedicated, engagement.adhoc],
+    faqs: [
+      {
+        q: "Which imaging and signal modalities do you support?",
+        a: "[PLACEHOLDER: confirm the modalities and tools the team has hands-on experience with, e.g. structural MRI, fMRI, DTI, EEG, MEG]. Fit is confirmed during scoping.",
+      },
+      {
+        q: "Do you provide clinical reads or diagnoses?",
+        a: "No. Clinical and radiological interpretation remains with qualified readers designated by the sponsor. We provide data processing, quality control and analysis support.",
       },
     ],
   },

@@ -1,4 +1,5 @@
 import {
+  Brain,
   Database,
   FlaskConical,
   GraduationCap,
@@ -19,6 +20,7 @@ const map = {
   shield: ShieldCheck,
   landmark: Landmark,
   graduation: GraduationCap,
+  brain: Brain,
 };
 
 /** Consistent line-icon wrapper: 1.5px stroke inside a tinted tile. */

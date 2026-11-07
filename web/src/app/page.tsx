@@ -162,7 +162,8 @@ export default function Home() {
               Software built to be auditable from day one
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-ink-600">
-              We design platforms for clinical trials, healthcare informatics and biomedical analytics, with security,
+              We build AI software for every department of clinical research, from clinical operations and data
+              management to biostatistics, safety, regulatory and neuroinformatics, with security,
               auditability, validation-readiness and interoperability as core requirements, not afterthoughts. Our AI
               work keeps qualified humans accountable for decisions that matter.
             </p>

@@ -48,7 +48,7 @@ Checks: `npm run lint`, `npx tsc --noEmit`, `npm run build`, `npx prettier --che
 
 Everything lives in [web/src/content/](web/src/content):
 - `site.ts`: company details, navigation, contact info, lifecycle stages, industries, values
-- `services.ts`: the eight service pages (overview, deliverables, frameworks, engagement models, FAQ)
+- `services.ts`: the nine service pages (overview, deliverables, frameworks, engagement models, FAQ)
 - `insights.ts`: articles; add an object to publish a post
 
 Search for `[PLACEHOLDER` to find everything awaiting real information (see [PLACEHOLDERS.md](PLACEHOLDERS.md)).

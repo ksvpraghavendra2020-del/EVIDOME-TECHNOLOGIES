@@ -25,7 +25,7 @@ export default function ServicesPage() {
       />
       <PageHero
         eyebrow="Services"
-        title="Eight specialist services, one coherent approach"
+        title="Nine specialist services, one coherent approach"
         text="Use one service for a defined need, or combine several for continuity across the clinical evidence chain."
         crumbs={[{ label: "Home", href: "/" }, { label: "Services" }]}
       />
